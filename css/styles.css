@@ -7,6 +7,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
     color: #4a4a4a;
 }
+.centered{
+	text-align: center;
+}
+.mt{
+	margin-top: 80px;
+}
+.mb{
+	margin-bottom: 80px;
+}
 .navbar-brand{
 	font-weight: 700;
 }
@@ -26,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #1abc9c;
 }
 #headerwrap{
-	background: url(../images/image-header02.jpg) no-repeat center top;
+	background: url(../images/fondo.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align: center;
@@ -48,4 +57,39 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap h4 {
 	font-weight: 700;
 	color: black;
+}
+
+.gallery{
+	margin-top: 30px;
+}
+
+.gallery img:hover{
+	opacity: 0.4;
+}
+
+#works h1{
+color:gray;
+font-size: 60px;
+font-weight: bold;
+}
+#social{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f2f2f2;
+}
+#social i {
+	font-size: 40px;
+	color: #4a4a4a
+}
+#social i:hover {
+	color: #1abc9c
+}
+#footerwrap{
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #2f2f2f;
+}
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 10px;
 }
